@@ -1,0 +1,516 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#"
+     xml:base="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:opla="http://ontologydesignpatterns.org/opla#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:opla-sd="http://ontologydesignpatterns.org/opla-sd#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontologydesignpatterns.org/opla#isNativeTo -->
+
+    <owl:AnnotationProperty rdf:about="http://ontologydesignpatterns.org/opla#isNativeTo"/>
+    
+
+
+    <!-- http://ontologydesignpatterns.org/opla-sd#entityPosition -->
+
+    <owl:AnnotationProperty rdf:about="http://ontologydesignpatterns.org/opla-sd#entityPosition"/>
+    
+
+
+    <!-- http://ontologydesignpatterns.org/opla-sd#entityPositionX -->
+
+    <owl:AnnotationProperty rdf:about="http://ontologydesignpatterns.org/opla-sd#entityPositionX"/>
+    
+
+
+    <!-- http://ontologydesignpatterns.org/opla-sd#entityPositionY -->
+
+    <owl:AnnotationProperty rdf:about="http://ontologydesignpatterns.org/opla-sd#entityPositionY"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#executedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#executedIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#implements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#implements"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#occursDuringSTE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#occursDuringSTE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsInputRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsInputRole"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsOutputRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsOutputRole"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsParameterRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsParameterRole"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesInputRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesInputRole"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesOutputRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesOutputRole"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesParameterRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesParameterRole"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#simulated -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#simulated"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#used -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#used"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Algorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Algorithm">
+        <opla:isNativeTo rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">SimulationActivity</opla:isNativeTo>
+        <opla-sd:entityPosition>
+            <rdf:Description>
+                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">220.0</opla-sd:entityPositionX>
+                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">110.0</opla-sd:entityPositionY>
+                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+            </rdf:Description>
+        </opla-sd:entityPosition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ComputationalEnvironment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ComputationalEnvironment">
+        <opla:isNativeTo rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">SimulationActivity</opla:isNativeTo>
+        <opla-sd:entityPosition>
+            <rdf:Description>
+                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-130.0</opla-sd:entityPositionX>
+                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">310.0</opla-sd:entityPositionY>
+                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+            </rdf:Description>
+        </opla-sd:entityPosition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Data">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsInputRole"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#InputRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsOutputRole"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#OutputRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsParameterRole"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ParameterRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsParameterRole"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ParameterRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsInputRole"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#InputRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsOutputRole"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#OutputRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla-sd:entityPosition>
+            <rdf:Description>
+                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">600.0</opla-sd:entityPositionX>
+                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">380.0</opla-sd:entityPositionY>
+                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+            </rdf:Description>
+        </opla-sd:entityPosition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#InputRole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#InputRole">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsInputRole"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla:isNativeTo rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">SimulationActivity</opla:isNativeTo>
+        <opla-sd:entityPosition>
+            <rdf:Description>
+                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">410.0</opla-sd:entityPositionX>
+                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">290.0</opla-sd:entityPositionY>
+                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+            </rdf:Description>
+        </opla-sd:entityPosition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#OutputRole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#OutputRole">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsOutputRole"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla:isNativeTo rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">SimulationActivity</opla:isNativeTo>
+        <opla-sd:entityPosition>
+            <rdf:Description>
+                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">400.0</opla-sd:entityPositionX>
+                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">380.0</opla-sd:entityPositionY>
+                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+            </rdf:Description>
+        </opla-sd:entityPosition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ParameterRole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ParameterRole">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsParameterRole"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla:isNativeTo rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">SimulationActivity</opla:isNativeTo>
+        <opla-sd:entityPosition>
+            <rdf:Description>
+                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">390.0</opla-sd:entityPositionX>
+                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">480.0</opla-sd:entityPositionY>
+                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+            </rdf:Description>
+        </opla-sd:entityPosition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulatedData -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulatedData">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Data"/>
+        <opla:isNativeTo rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">SimulationActivity</opla:isNativeTo>
+        <opla-sd:entityPosition>
+            <rdf:Description>
+                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">470.0</opla-sd:entityPositionX>
+                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">720.0</opla-sd:entityPositionY>
+                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+            </rdf:Description>
+        </opla-sd:entityPosition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulationActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulationActivity">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#executedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ComputationalEnvironment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#implements"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Algorithm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#occursDuringSTE"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SpatioTemporalExtent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesInputRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#InputRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesOutputRole"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#OutputRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#simulated"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulatedData"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#executedIn"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ComputationalEnvironment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#implements"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Algorithm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#occursDuringSTE"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SpatioTemporalExtent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesInputRole"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#InputRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesOutputRole"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#OutputRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesParameterRole"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ParameterRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#simulated"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulatedData"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#used"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulatedData"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesParameterRole"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ParameterRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#used"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulatedData"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <opla:isNativeTo rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">SimulationActivity</opla:isNativeTo>
+        <opla-sd:entityPosition>
+            <rdf:Description>
+                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</opla-sd:entityPositionX>
+                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">350.0</opla-sd:entityPositionY>
+                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+            </rdf:Description>
+        </opla-sd:entityPosition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SpatioTemporalExtent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SpatioTemporalExtent">
+        <opla:isNativeTo rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">SimulationActivity</opla:isNativeTo>
+        <opla-sd:entityPosition>
+            <rdf:Description>
+                <opla-sd:entityPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</opla-sd:entityPositionX>
+                <opla-sd:entityPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#double">110.0</opla-sd:entityPositionY>
+                <rdfs:comment xml:lang="en">This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view.</rdfs:comment>
+            </rdf:Description>
+        </opla-sd:entityPosition>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#executedIn"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ComputationalEnvironment"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulationActivity"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#implements"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Algorithm"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulationActivity"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#occursDuringSTE"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SpatioTemporalExtent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulationActivity"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsInputRole"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#InputRole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Data"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsOutputRole"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#OutputRole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Data"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#performsParameterRole"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ParameterRole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#Data"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesInputRole"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#InputRole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulationActivity"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesOutputRole"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#OutputRole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulationActivity"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#providesParameterRole"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#ParameterRole"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulationActivity"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#simulated"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulatedData"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulationActivity"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#used"/>
+        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulatedData"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cogan/ontologies/2020/7/untitled-ontology-580#SimulationActivity"/>
+    </owl:Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
